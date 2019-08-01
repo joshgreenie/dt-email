@@ -1,0 +1,389 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles
+
+
+@import url(//fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+body,
+html,
+.body {
+  background: #ececec !important;
+
+  &,
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+  }
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+}
+
+ h4, h5, h6 {
+  line-height: 1.4;
+}
+
+h4, h5 {
+  font-weight: bold;
+  color: #0c4263;
+}
+
+h6 {
+  color: #0c4263;
+  font-size: 18px;
+}
+
+.subheading {
+  color:#444;
+  font-size: 17px;
+}
+
+.light-grey-bg {
+  background: #f0f2f2;
+}
+
+.dark-blue-bg {
+  background: #0c4263;
+}
+.white-bg {
+  background: #fff;
+}
+
+.blue-gradient {
+  //background: -webkit-linear-gradient(135deg, #216f9c 0%, #144A7A 100%) !important;
+  //background: linear-gradient(135deg, #216f9c 0%, #144A7A 100%) !important;
+  background-color: #0c4263;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+a.button {
+  display: inline-block;
+  border: 1px solid;
+  padding: 7px 15px;
+  font-size: 20px;
+
+  &.white {
+    color: #ffffff;
+  }
+}
+
+.small-float-center {
+  margin-left: auto;
+  margin-right: auto;
+  height: 80px;
+}
+
+.light * {
+  color: #fff;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.align-vert {
+  vertical-align: middle;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+
+  &:last-child:not(:last-child) {
+    //padding-right: 26px !important;
+    //box-sizing: border-box;
+    padding-left: 15px !important;
+  }
+
+  &:first-child:not(:last-child) {
+    padding-left: 26px !important;
+    box-sizing: border-box;
+    padding-right: 2px !important;
+  }
+}
+
+.padding-small-top {
+  padding-top: 16px;
+}
+
+.padding-small-vert {
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.padding-small {
+  padding: 16px !important;
+}
+
+.padding-small-horz {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+
+.padding-med-top {
+  padding-top: 30px;
+}
+
+.padding-med-vert {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.padding-med-horz {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.padding-med {
+  padding: 30px !important;
+}
+
+.padding-lrg-horz {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+
+.text-small {
+  font-size: 14px;
+}
+
+.gray-text {
+  color: #666666;
+}
+
+.gray-bg {
+  background-color: #f7f7f7;
+}
+
+.green-gradient {
+  background: #8cc63f;
+  background: -moz-linear-gradient(-45deg, #8cc63f 0%, #6fb211 100%);
+  background: -webkit-linear-gradient(-45deg, #8cc63f 0%, #6fb211 100%);
+  background: linear-gradient(135deg, #8cc63f 0%, #6fb211 100%);
+}
+
+.color-green {
+  color: #8cc63f;
+}
+
+.color-white {
+  color: #ffffff;
+
+  * {
+    color: #ffffff;
+  }
+}
+
+.big-white-border {
+  border: 10px solid #fff;
+}
+
+.big-white-gutter {
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+}
+
+.font-large {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.border-green {
+  border-color: #8cc63f;
+}
+
+hr {
+  border-top: 0;
+}
+
+.remove-pad-bottom {
+  padding-bottom: 0 !important;
+}
+
+
+ul.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  text-align: right;
+
+  li {
+    display: inline-block;
+
+    a {
+      padding: 10px 0px 10px 15px;
+      display: inline-block;
+      color: #666666;
+      text-decoration: underline;
+    }
+  }
+}
+
+ul.social {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: right;
+
+  li {
+    display: inline-block;
+
+    a {
+      padding: 0;
+      margin: 0 5px;
+      display: inline-block;
+    }
+  }
+}
+
+img.small {
+  max-height: 50px;
+}
+
+
+.style-bullets {
+  line-height: 1.2;
+  padding: 10px 30px 10px;
+  margin-top: 0;
+  color: #444;
+  list-style-type: none;
+
+
+  @media screen and (min-width:596px){
+    padding: 10px 50px 10px;
+  }
+  img {
+    display: inline-block;
+  }
+  li {
+    padding:5px 0;
+  }
+}
+
+.green-check {
+  width:20px;
+  vertical-align: sub;
+  padding-right: 10px;
+}
+
+button,
+.button {
+
+  &.white {
+   td {
+     background: #fff;
+     color:#fff !important;
+     border-color:#fff;
+     font-weight:normal;
+
+     a {
+       color:#fff !important;
+       font-weight:normal;
+     }
+   }
+  }
+
+  &.green {
+
+    td {
+      background: #8bc53f;
+      color:#fff !important;
+      border-color:#8bc53f;
+      font-weight:normal;
+
+
+      a {
+        color:#fff !important;
+        font-weight:normal;
+      }
+
+      &:hover {
+
+        background: #fff;
+        color:#8bc53f !important;
+        border-color:#fff;
+
+        a {
+          color:#8bc53f !important;
+        }
+      }
+    }
+  }
+
+  &.blue {
+
+    td {
+      background: #0c4263;
+      color:#fff !important;
+      border-color:#0c4263;
+      font-weight:normal;
+
+
+      a {
+        color:#fff !important;
+        font-weight:normal;
+      }
+
+      &:hover {
+
+        background: #fff;
+        color:#0c4263 !important;
+        border-color:#fff;
+
+        a {
+          color:#0c4263 !important;
+        }
+      }
+    }
+  }
+}
